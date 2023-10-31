@@ -1,5 +1,56 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  padding: 0;
+}
+.img {
+  max-width: 100%;
+}
+
+.html {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.container {
+  margin: 28px;
+}
+
+.mainTitle {
+  color: rgb(35, 120, 93);
+  text-align: center;
+}
+
+.titleItem {
+  font-style: italic;
+}
+
+::marker {
+  color: rgb(35, 120, 93);
+}
+
+.green {
+  color: rgb(81, 151, 81);
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: auto;
+}
+
+#sel_ident {
+  color: rgb(70, 57, 118);
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h1 + p {
+  background-color: rgb(35, 120, 93);
+  color: aliceblue;
+}
+
+.itemList {
+  padding: 20px;
 }
