@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1110 px;
+  margin: auto;
+  padding: auto;
+}
+
+img {
+  max-width: 100%;
+}
