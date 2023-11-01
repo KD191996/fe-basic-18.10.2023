@@ -3,11 +3,11 @@
   box-sizing: border-box;
   padding: 0;
 }
-.img {
+img {
   max-width: 100%;
 }
 
-.html {
+html {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
