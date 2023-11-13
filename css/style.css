@@ -62,6 +62,12 @@ html {
 
 .center {
   margin: auto;
+  text-align: center;
+}
+
+.medium-title {
+  color: var(--secondary-text-c);
+  font-size: 21px;
 }
 
 /* -------------------First Section------------------------------------------------- */
@@ -104,18 +110,52 @@ html {
 
 .third-section {
   background-color: var(--secondary-color);
-  padding-top: 103px;
-  padding-bottom: 103px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.card {
+.svg {
   float: left;
-  margin-left: 49px;
 }
 .clearfix {
   clear: both;
 }
 
-.description-white {
+.cards-info {
+  display: inline-block;
   margin-left: 20px;
+  color: var(--secondary-text-c);
+}
+
+.cards-wrap {
+  float: left;
+  margin-left: 45px;
+}
+
+.container div:first-child {
+  margin-left: 0px;
+}
+
+/* ----------------------fourth-section------------------ */
+.fourth-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-color);
+}
+
+.iframe {
+  margin-top: 57px;
+  aspect-ratio: 16/9;
+}
+
+/* ------------------------footer------------------------------- */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--secondary-color);
+}
+.description-footer {
+  color: var(--secondary-text-c);
+  font-size: 13px;
+  margin-top: 20px;
 }
