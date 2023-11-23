@@ -10,8 +10,8 @@
   <body>
     <header>
       <section class="header">
-        <div class="container">
-          <a href="#" class="section-title">Amelia F</a>
+        <div class="container flex jc-sb">
+          <a href="#" class="section-title fz-36px">Amelia F</a>
           <nav class="nav">
             <a href="#" class="nav-link">Главная</a>
             <a href="#" class="nav-link">О нас</a>
@@ -23,33 +23,35 @@
       </section>
     </header>
     <main>
-      <section class="first-section">
-        <div class="container">
-          <div class="wrapper">
-            <h1 class="section-title main-title">Amelia Flowers</h1>
-            <p class="description">
+      <section class="grey-bg">
+        <section class="first-section">
+          <div class="container flex jc-sb">
+            <div class="wrapper">
+              <h1 class="section-title main-title">Amelia Flowers</h1>
+              <p class="description">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+                текстов на латинице с начала XVI века.
+              </p>
+              <a href="#" class="btn green-btn">Заказать букет</a>
+              <a href="#" class="btn border">Помощь флориста</a>
+            </div>
+            <img src="./img/img-section1.jpg" alt="букет цветов" />
+          </div>
+        </section>
+        <section class="second-section ta-center">
+          <div class="container">
+            <h2 class="section-title">О НАС</h2>
+            <p class="description margin-auto">
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
               на латинице с начала XVI века.
             </p>
-            <a href="#" class="btn green">Заказать букет</a>
-            <a href="#" class="btn border">Помощь флориста</a>
           </div>
-          <img src="./img/img-section1.jpg" alt="букет цветов" />
-        </div>
-      </section>
-      <section class="second-section">
-        <div class="container">
-          <h2 class="section-title">О НАС</h2>
-          <p class="description">
-            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
-            латинице с начала XVI века.
-          </p>
-        </div>
+        </section>
       </section>
       <section class="third-section">
-        <div class="container">
+        <div class="container flex jc-sb">
           <div class="cards-wrap">
             <img src="./img/1-3section.svg" alt="Лучшие цены" />
             <p>Лучшие цены</p>
@@ -72,58 +74,81 @@
           </div>
         </div>
       </section>
-      <section class="fourth-section">
-        <div class="container">
+      <section class="fourth-section grey-bg">
+        <div class="container flex jc-sb">
           <img src="./img/img-section4.jpg" alt="Ваза с цветами" />
-          <h2 class="section-title">Как мы работаем</h2>
-          <p class="description">
-            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
-            латинице с начала XVI века.
-          </p>
+          <div class="wrapper">
+            <h2 class="section-title ta-center">Как мы работаем</h2>
+            <p class="description">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+              на латинице с начала XVI века.
+            </p>
+          </div>
         </div>
       </section>
-      <section class="five-section">
+      <section class="five-section grey-bg">
         <div class="container">
-          <h2 class="section-title">Наши работы</h2>
-          <div class="cards-wrap">
+          <h2 class="section-title ta-center">Наши работы</h2>
+        </div>
+        <div class="container">
+          <div class="cards">
             <div class="cards-five-section">
-              <img src="./img/img-section5.jpg" alt="Букет” Флоренция”" />
-              <p>Букет” Флоренция”</p>
+              <img
+                class="img-cards"
+                src="./img/img-section5.jpg"
+                alt="Букет” Флоренция”"
+              />
+              <p class="ta-center">Букет” Флоренция”</p>
             </div>
             <div>
-              <img src="./img/img-section5-2.jpg" alt="Букет” Флоренция”" />
-              <p>Букет” Флоренция”</p>
+              <img
+                class="img-cards"
+                src="./img/img-section5-2.jpg"
+                alt="Букет” Флоренция”"
+              />
+              <p class="ta-center">Букет” Флоренция”</p>
             </div>
             <div>
-              <img src="./img/img-section5-3.jpg" alt="Букет” Флоренция”" />
-              <p>Букет” Флоренция”</p>
+              <img
+                class="img-cards"
+                src="./img/img-section5-3.jpg"
+                alt="Букет” Флоренция”"
+              />
+              <p class="ta-center">Букет” Флоренция”</p>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container">
+    <footer class="footer">
+      <div class="container flex jc-sb">
         <div class="nav-footer">
-          <h3>Контакты</h3>
-          <a href="tel:+380517328964">+380517328964</a>
-          <a href="tel:+380517328964">+380517328964</a>
-          <address>Харьков, ул Сумская 115</address>
+          <h3 class="title-footer">Контакты</h3>
+          <a class="nav-items" href="tel:+380517328964">+380517328964</a>
+          <a class="nav-items" href="tel:+380517328964">+380517328964</a>
+          <p class="nav-items">Харьков, ул. Сумская 115</p>
         </div>
 
         <div class="title-section">
-          <h2 class="title-section">Amelia F</h2>
+          <h2 class="section-title fz-36px">Amelia F</h2>
         </div>
         <div class="social">
-          <h3>Мы в соц. сетях</h3>
-          <div class="nav-social">
-            <a href="#">Instagram</a>
-            <a href="#">Telegram</a>
-            <a href="#">WhatsApp</a>
+          <h3 class="title-footer">Мы в соц. сетях</h3>
+          <div class="nav-social ta-center">
+            <a class="social-items" href="#"
+              ><img src="./img/instagram.svg" alt="instagram"
+            /></a>
+            <a class="social-items" href="#"
+              ><img src="./img/telegram.svg" alt="telegram"
+            /></a>
+            <a class="social-items" href="#"
+              ><img src="./img/whatsapp.svg" alt="WhatsApp "
+            /></a>
           </div>
         </div>
       </div>
+      <div class="container"><p class="ta-center">© 2023</p></div>
     </footer>
   </body>
 </html>

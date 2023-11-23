@@ -22,9 +22,9 @@ img {
   margin-top: 40px;
 }
 
-.green {
+.green-btn {
   background-color: var(--primary-color);
-  padding: 20px 31px 20px 31px;
+  padding: 20px 31px;
   margin-right: 65px;
 }
 .border {
@@ -63,6 +63,27 @@ html {
   padding-top: 60px;
   max-width: 540px;
 }
+.grey-bg {
+  background-color: var(--secondary-color);
+}
+
+.flex {
+  display: flex;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.ta-center {
+  text-align: center;
+}
+.fz-36px {
+  font-size: 36x;
+}
 /* -------------------------------HEADER-------------------------- */
 .header {
   background-color: var(--primary-color);
@@ -71,32 +92,68 @@ html {
 }
 
 .nav {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
   margin-left: 130px;
 }
 .nav-link + .nav-link {
   margin-left: 90px;
 }
-
 /* -----------------first-section-------------- */
-.first-section {
-  background-color: var(--secondary-color);
-
-  padding-bottom: 178px;
-}
 
 .main-title {
   font-size: 62px;
 }
 
 .wrapper {
-  display: inline-block;
+  align-self: center;
 }
 
 /* ---------------------second-section ----------------------*/
 .second-section {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: var(--secondary-color);
+}
+
+/* ----------------------third-section--------------- */
+.third-section {
+  background-color: var(--primary-color);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.cards-wrap {
   text-align: center;
+}
+/* --------------fourth-section  ----------------*/
+.fourth-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.cards {
+  background-color: var(--primary-color);
+  max-width: 350px;
+}
+/*---------------------------- five-section---------------- */
+.img-cards {
+  margin: 15px 15px 93px 15px;
+}
+
+/*----------------- footer ----------------+-----------*/
+.footer {
+  background-color: var(--primary-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.title-footer {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.nav-items {
+  display: block;
+  margin-top: 20px;
+}
+.social-items {
+  margin-right: 20px;
 }
