@@ -20,8 +20,12 @@ img {
 .btn {
   display: inline-block;
   text-align: center;
-  min-width: 150px;
-  padding: 0.5rem, 1.5rem;
+  min-width: 126px;
+  padding: 9px 26px;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #161513;
+  cursor: pointer;
 }
 
 a {
@@ -42,7 +46,13 @@ html {
   padding-right: var(--basic-space);
   padding-left: var(--basic-space);
 }
-
+.container-small {
+  max-width: calc((var(--container-width) - 220px) + var(--basic-space) * 2);
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: var(--basic-space);
+  padding-left: var(--basic-space);
+}
 .bg-grey {
   background-color: #f2f1ef;
 }
@@ -53,8 +63,144 @@ html {
 .jc-sb {
   justify-content: space-between;
 }
-.aling-center {
+
+.ta-center {
+  text-align: center;
+}
+.section-title {
+  font-size: 45px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+.button {
+  font-family: inherit;
+  font-weight: inherit;
+}
+.fz-23 {
+  font-size: 23px;
+  line-height: 1.4;
+}
+.fz-31 {
+  font-size: 31px;
+  letter-spacing: 0.64px;
+  line-height: 1.3;
+  margin-bottom: 31px;
+}
+/*------------------------------------ header--------------------------- */
+header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.main-logo {
+  height: fit-content;
   align-self: center;
 }
 
-/*------------------------------------ header--------------------------- */
+/* --------------------------main-section ---------------------*/
+.main-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.main-title {
+  font-size: 56px;
+  line-height: 1.14;
+  margin-bottom: 35px;
+}
+.black-btn {
+  border: 1px solid var(--secondary-bgcolor);
+  color: #fff;
+  background-color: var(--secondary-bgcolor);
+  padding: 13px 33px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  min-width: 179px;
+  cursor: pointer;
+}
+
+.transparent-btn {
+  max-width: 144px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid var(--secondary-bgcolor);
+  padding: 13px 33px;
+  cursor: pointer;
+}
+.list-prof {
+  margin-bottom: 40px;
+}
+/* ---------------------------black-section -----------------------------*/
+.black-section {
+  padding-top: 66px;
+  padding-bottom: 138px;
+}
+.black-star {
+  margin-left: 67px;
+}
+.black-wrap {
+  background-color: var(--secondary-bgcolor);
+  color: #fff;
+  transform: rotate(-4.932deg);
+}
+/* ------------------lead-section-------------------- */
+.lead-title {
+  font-size: 56px;
+  line-height: 1.1;
+  margin-top: 21px;
+}
+.lead-cards-wrap {
+  max-width: 612px;
+}
+.lead-description {
+  color: var(--secondary-textcolor);
+  font-size: 12px;
+  line-height: 1.3;
+  margin-bottom: 9px;
+  margin-top: 27px;
+}
+.lead-left {
+  max-width: 408px;
+}
+/* -------------------------cadrs-section ---------------------*/
+.cadrs-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.wrapper {
+  justify-content: space-around;
+  border: 2px solid #332f29;
+}
+.cards {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.number-cards {
+  font-size: 56px;
+  line-height: 1.1;
+}
+.cards-description {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  margin-top: 11px;
+}
+
+.fb-33 {
+  flex-basis: 33.3%;
+}
+
+.bg-black {
+  background-color: var(--secondary-bgcolor);
+  color: #fff;
+}
