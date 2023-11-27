@@ -31,6 +31,7 @@ img {
 a {
   color: inherit;
 }
+
 html {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 18px;
@@ -63,7 +64,12 @@ html {
 .jc-sb {
   justify-content: space-between;
 }
-
+.jc-center {
+  justify-content: center;
+}
+.al-center {
+  align-self: center;
+}
 .ta-center {
   text-align: center;
 }
@@ -71,6 +77,8 @@ html {
   font-size: 45px;
   text-align: center;
   line-height: 1.2;
+  margin-top: 22px;
+  margin-bottom: 9px;
 }
 
 .gap-32 {
@@ -92,7 +100,9 @@ html {
   font-size: 31px;
   letter-spacing: 0.64px;
   line-height: 1.3;
-  margin-bottom: 31px;
+}
+.section-div {
+  margin-bottom: 60px;
 }
 /*------------------------------------ header--------------------------- */
 header {
@@ -171,6 +181,10 @@ header {
 .lead-left {
   max-width: 408px;
 }
+.lead-text {
+  margin-bottom: 31px;
+}
+
 /* -------------------------cadrs-section ---------------------*/
 .cadrs-section {
   padding-top: 120px;
@@ -203,4 +217,66 @@ header {
 .bg-black {
   background-color: var(--secondary-bgcolor);
   color: #fff;
+}
+/* ------------------------awards-section-------------------- */
+.awards-square {
+  width: 48px;
+  height: 48px;
+  background-color: var(--third-bgcolor);
+  color: #fff;
+}
+.awards-cadr {
+  border: 2px solid #161513;
+  margin-bottom: 24px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+.awards-section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+/* -------------------------services-section -------------------*/
+.services-descript {
+  margin-bottom: 28px;
+}
+.services-cards {
+  max-width: 510px;
+  padding: 34px 49px 30px 34px;
+  border: 2px solid #161513;
+}
+.services-wrap {
+  flex-wrap: wrap;
+}
+.services-section {
+  padding-bottom: 160px;
+}
+/* -------------------------portfolio-section -------------------*/
+.portf-title {
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--third-bgcolor);
+  display: inline;
+  padding: 3px 12px 5px 12px;
+}
+.portf-descript {
+  font-size: 45px;
+  line-height: 1.2;
+  letter-spacing: 1.44px;
+  margin-top: 30px;
+  margin-bottom: 49px;
+}
+.portf-card {
+  display: flex;
+  gap: 44px;
+}
+.portf-card a {
+  text-decoration: none;
+}
+.portf-wrap {
+  flex-direction: column;
+  gap: 96px;
+}
+.portfolio-section {
+  padding-bottom: 120px;
 }
