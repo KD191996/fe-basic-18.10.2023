@@ -280,3 +280,15 @@ header {
 .portfolio-section {
   padding-bottom: 120px;
 }
+/* --------------------customer-section--------------- */
+.customer-section {
+}
+.custom-cards {
+  border: 1px solid #131416;
+  max-width: calc(25% - 128px / 4);
+  padding: 43px 60px;
+  width: 100%;
+}
+.custom-wrap {
+  flex-wrap: wrap;
+}
