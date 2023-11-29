@@ -221,6 +221,7 @@ div.article-card h3.cards-description {
   background-color: var(--third-bgcolor);
   color: #fff;
   text-align: center;
+  padding: 7px 19px 9px 19px;
 }
 .awards-cadr {
   border: 2px solid #161513;
@@ -302,6 +303,7 @@ div.article-card h3.cards-description {
 /* ----------------------------articles-section -------------------*/
 .articles-section {
   padding-bottom: 136px;
+  position: relative;
 }
 .article-descript {
   font-size: 16px;
@@ -330,6 +332,11 @@ div.article-card h3.cards-description {
   padding-top: 12px;
   padding-bottom: 14px;
   border: 1px solid #161513;
+}
+.svg-absol {
+  position: absolute;
+  right: 0;
+  bottom: 220px;
 }
 /* ----------------------------input-section------------- */
 .input-section {
