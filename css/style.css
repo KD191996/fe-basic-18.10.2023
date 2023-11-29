@@ -83,6 +83,9 @@ html {
 .al-center {
   align-items: center;
 }
+.als-center {
+  align-self: center;
+}
 .ta-center {
   text-align: center;
 }
@@ -357,6 +360,7 @@ div.article-card h3.cards-description {
   letter-spacing: 0.48px;
   background-color: var(--secondary-bgcolor);
   padding: 12px 15px;
+  border: 0px;
 }
 .gap-24 {
   gap: 24px;
