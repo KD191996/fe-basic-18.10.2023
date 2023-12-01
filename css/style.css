@@ -157,6 +157,8 @@ header {
   background-color: var(--secondary-bgcolor);
   color: #fff;
   transform: rotate(-4.932deg);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /* ------------------lead-section-------------------- */
 .lead-title {
@@ -297,8 +299,11 @@ div.article-card h3.cards-description {
 .custom-cards {
   border: 1px solid #131416;
   max-width: calc(25% - 128px / 4);
-  padding: 43px 60px;
   width: 100%;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .custom-wrap {
   flex-wrap: wrap;
