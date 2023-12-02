@@ -1,6 +1,8 @@
 :root {
-  --container-width: 1110px;
+  --container-width: 1340px;
   --basic-space: 1rem;
+  --text-color: #68513f;
+  --bg-color: #e7ded8;
 }
 
 * {
@@ -16,8 +18,11 @@ img {
 .btn {
   display: inline-block;
   text-align: center;
-  min-width: 150px;
-  padding: 0.5rem, 1.5rem;
+  min-width: 143px;
+  border: 1px solid #dacec6;
+  background-color: #f1ebe7;
+  padding: 13px 21px;
+  height: 45px;
 }
 
 a {
@@ -25,10 +30,11 @@ a {
   text-decoration: none;
 }
 html {
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Inter', serif;
+  font-size: 14px;
+  line-height: 1.4;
   font-weight: 400;
-  color: #202020;
+  color: #000;
 }
 
 .container {
@@ -37,4 +43,228 @@ html {
   margin-right: auto;
   padding-right: var(--basic-space);
   padding-left: var(--basic-space);
+}
+.flex {
+  display: flex;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-center {
+  justify-content: center;
+}
+.al-center {
+  align-items: center;
+}
+.ta-center {
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 1.5;
+}
+/*------------------ header ----------------*/
+
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.nav-wrap {
+  gap: 40px;
+  height: 59px;
+  align-items: center;
+}
+.cart {
+  font-size: 17px;
+  line-height: 19.6px;
+  border: none;
+  background-color: inherit;
+  gap: 8px;
+}
+.number-cart {
+  width: 24px;
+  height: 24px;
+  background: #e7ded8;
+  color: #68513f;
+  text-align: center;
+  font-size: 11px;
+  line-height: 2.2;
+  padding: 0px 8px;
+  height: 24px;
+}
+/*------------------- main-section---------------- */
+.bg-main {
+  background-image: url(../img/bg/bg-main-section.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  aspect-ratio: 16/9;
+}
+.main-title {
+  font-family: 'STSong';
+  font-size: 88px;
+  font-weight: 300;
+  max-width: 510px;
+  margin-bottom: 45px;
+}
+.main-title .main-title-2 {
+  font-size: 81px;
+  line-height: 126px;
+}
+.you {
+  color: var(--text-color);
+  text-align: right;
+  font-family: 'Style Script';
+  font-size: 175px;
+  font-weight: 400;
+  line-height: 182px;
+  transform: rotate(5.539deg);
+  display: inline;
+  position: absolute;
+  bottom: 190px;
+  left: 527px;
+}
+.left-part {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.main-section {
+  position: relative;
+}
+/* -------------------shop-all------------------ */
+.shop-all {
+  padding-top: 240px;
+  padding-bottom: 240px;
+  position: relative;
+}
+.shop-title {
+  text-align: center;
+  font-family: 'STSong';
+  font-size: 65px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.fz-70 {
+  font-size: 70px;
+}
+.title-2 {
+  color: #68513f;
+  text-align: center;
+  font-family: 'Style Script';
+  font-size: 137px;
+  font-weight: 400;
+  line-height: 112px;
+  transform: rotate(-5.079deg);
+  margin-bottom: 18px;
+}
+.shop-wrap {
+  max-width: 650px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.btn-shop {
+  border-radius: 73px;
+  border: 1px solid #dacec6;
+  background-color: #f1ebe7;
+  color: #68513f;
+  text-align: center;
+  padding: 13px 21px;
+  margin-top: 47px;
+}
+.shop-img-1 {
+  position: absolute;
+  top: 117px;
+  left: 94px;
+}
+.shop-img-2 {
+  position: absolute;
+  right: 294px;
+  top: 27px;
+}
+.shop-img-3 {
+  position: absolute;
+  top: 266px;
+  right: 160px;
+}
+.shop-img-4 {
+  position: absolute;
+  right: 296px;
+  bottom: 157px;
+}
+.shop-img-5 {
+  position: absolute;
+  left: 188px;
+  bottom: 238px;
+}
+/* -----------------products-section -------------*/
+.products-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.title-products {
+  color: #68513f;
+  text-align: center;
+  font-family: 'Style Script';
+  font-size: 137px;
+  font-weight: 400;
+  line-height: 112px;
+}
+.card {
+  border-radius: 10px;
+  background: #e7ded8;
+  max-width: 325px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.up-item {
+  padding: 20px 15px 14.75px 15px;
+  gap: 6.25px;
+  flex-wrap: wrap;
+}
+.btn-prod {
+  border-radius: 5px;
+  border: 1px solid #dacec6;
+  background: #f1ebe7;
+  color: #68513f;
+  text-align: center;
+  padding: 12px 119px;
+}
+.prod-descript {
+  font-size: 19px;
+}
+.w-100 {
+  width: 100%;
+}
+.cards-wrap {
+  margin-top: 50px;
+}
+/*------------------- feature-section -------------*/
+.title-decrt {
+  text-align: center;
+  font-family: STSong;
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 1.4;
+  max-width: 439px;
+}
+.title-decrt-2 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  max-width: 460px;
+  margin-top: 25px;
+}
+.feature-btn {
+  border: 1px solid #dacec6;
+  background: #f1ebe7;
+  max-width: 115px;
+  color: #68513f;
+  text-align: center;
+  padding: 12px 21px;
+}
+.right-feature {
+  max-width: 620px;
 }
