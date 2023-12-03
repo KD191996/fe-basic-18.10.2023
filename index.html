@@ -152,10 +152,10 @@
         </div>
       </section>
       <section class="feature-section">
-        <div class="container flex">
+        <h2 class="title-products pos-absol">Feature</h2>
+        <div class="container flex gap-100">
           <img src="./img/feature-sec/feature-1.png" alt="feature-1" />
           <div class="right-feature">
-            <h2 class="title-products">Feature</h2>
             <p class="title-decrt">Innovation-led Products</p>
             <p class="title-decrt-2">
               Temporibus autem quibusdam et aut officiis debitis aut rerum
@@ -167,55 +167,65 @@
       </section>
       <section class="custom-section">
         <div class="container">
-          <p>
-            "Generate Lorem Ipsum which looks reasonable. The generated Lorem
-            Ipsum is therefore always free from repetition, injected humour, or
-            non-characteristic"
-          </p>
-          <div class="custom">
-            <img src="./img/svg/custom-1.svg" alt="custom-1" />
-            <img src="./img/svg/custom-2.svg" alt="custom-2" />
-            <img src="./img/svg/custom-3.svg" alt="custom-3" />
-            <img src="./img/svg/custom-4.svg" alt="custom-4" />
+          <div class="custom-wrap">
+            <p class="custom-descript">
+              "Generate Lorem Ipsum which looks reasonable. The generated Lorem
+              Ipsum is therefore always free from repetition, injected humour,
+              or non-characteristic"
+            </p>
+            <div class="custom flex">
+              <img src="./img/svg/custom-1.svg" alt="custom-1" />
+              <img src="./img/svg/custom-2.svg" alt="custom-2" />
+              <img src="./img/svg/custom-3.svg" alt="custom-3" />
+              <img src="./img/svg/custom-4.svg" alt="custom-4" />
+            </div>
           </div>
         </div>
       </section>
       <section class="wash-section">
         <div class="container">
-          <div class="wash-wrap">
-            <div class="wash-card">
-              <p>Body Wash</p>
+          <div class="wash-wrap flex">
+            <div class="wash-card-1 flex jc-center al-center">
+              <p class="wash-descript flex jc-center al-center">Body Wash</p>
             </div>
-            <div class="wash-card">
-              <p>Face wash</p>
+            <div class="wash-card-2 flex jc-center al-center">
+              <p class="wash-descript flex jc-center al-center">Face wash</p>
             </div>
-            <div class="wash-card">
-              <p>Cleanser</p>
+            <div class="wash-card-3 flex jc-center al-center">
+              <p class="wash-descript flex jc-center al-center">Cleanser</p>
             </div>
           </div>
         </div>
       </section>
       <section class="skin-section">
         <div class="container">
-          <h2>Skinn blog</h2>
-          <div class="skin-wrap">
-            <div class="skin-card">
+          <h2 class="skin-title">Skinn blog</h2>
+          <div class="skin-wrap flex">
+            <div class="skin-card flex">
               <img src="./img/skin-sec/skin-1.png" alt="skin-1" />
-              <p>Which skinceuticals vitamin c serum is right for you</p>
-              <a href="#">Read more</a>
+              <div class="skin-right flex">
+                <p class="skin-descript">
+                  Which skinceuticals vitamin c serum is right for you
+                </p>
+                <a class="btn-skin" href="#">Read more</a>
+              </div>
             </div>
-            <div class="skin-card">
+            <div class="skin-card flex">
               <img src="./img/skin-sec/skin-2.png" alt="skin-2" />
-              <p>Everything you need to know about your skin</p>
-              <a href="#">Read more</a>
+              <div class="skin-right flex">
+                <p class="skin-descript">
+                  Everything you need to know about your skin
+                </p>
+                <a class="btn-skin" href="#">Read more</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <div class="container">
-        <div>
+      <div class="container flex gap-100 jc-sa">
+        <div class="left-fot">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="86"
@@ -237,7 +247,7 @@
               </clipPath>
             </defs>
           </svg>
-          <p>
+          <p class="left-descript">
             The wise man therefore always holds in these matters to this
             principle
           </p>
@@ -246,31 +256,56 @@
             <p>Powered by <span>Webflow</span></p>
           </div>
         </div>
-        <div class="pages">
-          <h3>Pages</h3>
-          <ul>
-            <li>Home</li>
-            <li>Home 2</li>
-            <li>Shop All</li>
-            <li>Our Story</li>
-            <li>Blog</li>
-            <li>FAQs</li>
-            <li>Contact Us</li>
-            <li>Instructions</li>
-            <li>Style Guide</li>
-            <li>Licenses</li>
-            <li>Changelog</li>
-          </ul>
+        <div class="pages flex">
+          <h3 class="pages-title">Pages</h3>
+          <div class="flex pages-item">
+            <ul>
+              <li>Home</li>
+              <li>Home 2</li>
+              <li>Shop All</li>
+              <li>Our Story</li>
+              <li>Blog</li>
+              <li>FAQs</li>
+            </ul>
+            <ul>
+              <li>Contact Us</li>
+              <li>Instructions</li>
+              <li>Style Guide</li>
+              <li>Licenses</li>
+              <li>Changelog</li>
+            </ul>
+          </div>
         </div>
-        <div class="contact">
-          <h3>Contact us</h3>
-          <div>
-            <p>Have questions or suggestions?</p>
+        <div class="contact flex pages">
+          <h3 class="contacts-title">Contact us</h3>
+          <div class="contact-up">
+            <p class="contacts-descript">Have questions or suggestions?</p>
             <a href="mailto:hello@webestica.com">hello@webestica.com</a>
           </div>
           <div>
-            <p>Need assistance? Give us a call.</p>
+            <p class="contacts-descript">Need assistance? Give us a call.</p>
             <a href="tel:+015982694756">+01 598 269 4756</a>
+          </div>
+        </div>
+        <div class="flex pages up-here">
+          <h3 class="here-title">We’re here for you</h3>
+          <div>
+            <p class="dates">Monday - Thursday: 9:30 - 18:00</p>
+            <p>Friday: 9:30 - 15:00</p>
+          </div>
+          <div class="social flex">
+            <a href="https://www.facebook.com/">
+              <img src="./img/svg/facebook.svg" alt="facebook" />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img src="./img/svg/insta.svg" alt="insta" />
+            </a>
+            <a href="https://www.pinterest.com/">
+              <img src="./img/svg/pinterest.svg" alt="pinterest" />
+            </a>
+            <a href="https://twitter.com/">
+              <img src="./img/svg/twitter.svg" alt="twitter" />
+            </a>
           </div>
         </div>
       </div>
