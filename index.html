@@ -4,7 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./fonts/fontsheet.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="flex jc-end container main">
+        <div class="wrapper">
+          <div class="container-small">
+            <div class="nav-header">
+              <nav class="nav-list">
+                <a class="nav-item-1" href="#">Вход</a>
+                <a class="nav-item-2" href="#">Регистрация</a>
+              </nav>
+            </div>
+          </div>
+
+          <section>
+            <div class="container-small">
+              <h1 class="main-title">Вход</h1>
+              <form action="https://fom.in.ua/echo" method="post">
+                <input
+                  class="fields"
+                  type="email"
+                  name="email"
+                  placeholder="Введите E-mail"
+                  required
+                />
+                <br />
+                <input
+                  class="fields"
+                  type="password"
+                  name="pass"
+                  placeholder="Пароль"
+                  required
+                  pattern="[0-9]{6}"
+                />
+                <br />
+
+                <div class="flex jc-sb">
+                  <label class="checkbox-label">
+                    <input type="checkbox" />
+                    <span class="checkbox"></span>Запомнить меня
+                  </label>
+                  <a href="#" class="tx-color-green">Забыли пароль?</a>
+                </div>
+                <button type="submit">Войти</button>
+              </form>
+            </div>
+          </section>
+          <section>
+            <div class="container-small">
+              <p>Еще нет аккаунта?</p>
+              <a href="#">Зарегистрироваться</a>
+              <div>
+                <h2>Или войдите через</h2>
+                <div>
+                  <a href="https://www.facebook.com/"
+                    ><img src="./img/facebook.svg" alt="facebook" srcset=""
+                  /></a>
+                  <a href="https://www.instagram.com/"
+                    ><img src="./img/insta.svg" alt="insta" srcset=""
+                  /></a>
+                  <a href="https://www.linkedin.com/"
+                    ><img src="./img/linkedin.svg" alt="linkedin" srcset=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

@@ -1,6 +1,9 @@
 :root {
-  --container-width: 1110px;
+  --container-width: 1240px;
   --basic-space: 1rem;
+  --bg-color-1: #153416;
+  --bg-color-2: #929191;
+  --text-color: #153416;
 }
 
 * {
@@ -8,8 +11,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-img {
+.tx-color-green {
+  color: var(--text-color);
+}
+.img {
   max-width: 100%;
 }
 
@@ -22,13 +27,14 @@ img {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 html {
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Roboto' serif;
+  font-size: 12px;
+  line-height: normal;
   font-weight: 400;
-  color: #202020;
+  color: #fff;
 }
 
 .container {
@@ -37,4 +43,90 @@ html {
   margin-right: auto;
   padding-right: var(--basic-space);
   padding-left: var(--basic-space);
+}
+.container-small {
+  min-width: 340px;
+}
+main {
+  background: url(../img/bg.png) no-repeat center/cover;
+  min-width: 100vh;
+}
+.wrapper {
+  max-width: 496px;
+  background: rgba(233, 233, 233, 0.25);
+  backdrop-filter: blur(5px);
+}
+.flex {
+  display: flex;
+}
+.jc-end {
+  justify-content: flex-end;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.wrapper {
+  padding: 60px 78px 171px 60px;
+}
+.nav-header {
+  border-radius: 30px;
+  border: 1px solid #153416;
+  padding: 9px 70px;
+  margin-bottom: 75px;
+}
+.nav-item-1 {
+  border-radius: 30px;
+  background: var(--bg-color-1);
+  /* padding: 9px 70px; */
+}
+.nav-item-2 {
+  /* padding: 11px 50px; */
+  background: rgba(233, 233, 233, 0.25);
+  backdrop-filter: blur(5px);
+}
+.main-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.fields {
+  border-radius: 30px;
+  background: #929191;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border: none;
+}
+input::placeholder {
+  padding-left: 20px;
+  color: #fff;
+}
+.checkbox-label input[type='checkbox'] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  float: left;
+}
+.checkbox-label .checkbox {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  display: inline-block;
+  border: 1px solid #d9d9d9;
+  margin-right: 10px;
+}
+.checkbox-label input[type='checkbox']:checked + .checkbox {
+  background: #153416;
+  background-image: url(../img/Vector\ 3.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+button {
+  border-radius: 30px;
+  background: #153416;
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  color: #fff;
 }
