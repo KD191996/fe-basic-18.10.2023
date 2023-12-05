@@ -14,15 +14,15 @@
           <div class="container-small">
             <div class="nav-header">
               <nav class="nav-list flex jc-sb">
-                <a class="nav-item-1" href="./index.html">Вход</a>
-                <a class="nav-item-2" href="./index1.html">Регистрация</a>
+                <a class="nav-item-2" href="./index.html">Вход</a>
+                <a class="nav-item-1" href="./index1.html">Регистрация</a>
               </nav>
             </div>
           </div>
 
           <section>
             <div class="container-small">
-              <h1 class="main-title">Вход</h1>
+              <h1 class="main-title">Регистрация</h1>
               <form action="https://fom.in.ua/echo" method="post">
                 <input
                   class="fields"
@@ -41,11 +41,20 @@
                   pattern="[0-9]{6}"
                 />
                 <br />
+                <input
+                  class="fields"
+                  type="password"
+                  name="pass"
+                  placeholder="Повторить пароль"
+                  required
+                  pattern="[0-9]{6}"
+                />
+                <br />
 
                 <div class="flex jc-sb">
                   <label class="checkbox-label">
                     <input type="checkbox" />
-                    <span class="checkbox"></span>Запомнить меня
+                    <span class="checkbox"></span>Получать новости
                   </label>
                   <a href="#" class="tx-color-green">Забыли пароль?</a>
                 </div>
@@ -58,20 +67,6 @@
               <div class="flex text-box">
                 <p class="tx-color-green">Еще нет аккаунта?</p>
                 <a href="#">Зарегистрироваться</a>
-              </div>
-              <div>
-                <p class="tx-color-green ta-center">Или войдите через</p>
-                <div class="flex social-list">
-                  <a href="https://www.facebook.com/" target="_blank"
-                    ><img src="./img/facebook.svg" alt="facebook" srcset=""
-                  /></a>
-                  <a href="https://www.instagram.com/" target="_blank"
-                    ><img src="./img/insta.svg" alt="insta" srcset=""
-                  /></a>
-                  <a href="https://www.linkedin.com/" target="_blank"
-                    ><img src="./img/linkedin.svg" alt="linkedin" srcset=""
-                  /></a>
-                </div>
               </div>
             </div>
           </section>
