@@ -65,24 +65,31 @@ main {
 .jc-sb {
   justify-content: space-between;
 }
+.ta-center {
+  text-align: center;
+}
 .wrapper {
   padding: 60px 78px 171px 60px;
 }
 .nav-header {
   border-radius: 30px;
   border: 1px solid #153416;
-  padding: 9px 70px;
+  padding: 2px;
   margin-bottom: 75px;
+}
+.nav-list {
+  justify-content: center;
 }
 .nav-item-1 {
   border-radius: 30px;
   background: var(--bg-color-1);
-  /* padding: 9px 70px; */
+  padding: 9px 70px;
 }
 .nav-item-2 {
-  /* padding: 11px 50px; */
-  background: rgba(233, 233, 233, 0.25);
-  backdrop-filter: blur(5px);
+  padding: 11px 50px;
+}
+nav a {
+  text-decoration: none;
 }
 .main-title {
   font-size: 30px;
@@ -128,5 +135,16 @@ button {
   width: 100%;
   padding: 15px;
   margin-top: 30px;
+  margin-bottom: 40px;
   color: #fff;
+}
+.text-box {
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.social-list {
+  margin-top: 20px;
+  justify-content: center;
+  gap: 15px;
 }
