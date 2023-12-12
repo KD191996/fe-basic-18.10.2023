@@ -39,11 +39,14 @@ html {
   margin-right: auto;
   padding-right: var(--basic-space);
   padding-left: var(--basic-space);
+  position: relative;
+}
+header {
+  background-color: grey;
+  border-bottom: 10px solid rgb(228, 77, 22);
 }
 .topmenu {
   display: flex;
-  background-color: grey;
-  border-bottom: 10px solid orangered;
   list-style: none;
 }
 ul li a {
@@ -52,13 +55,21 @@ ul li a {
 .submenu li {
   position: relative;
   list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.submenu a {
+  text-transform: lowercase;
+  padding: 10px;
+}
+.topmenu li {
+  position: relative;
 }
 .topmenu li:hover {
-  background-color: orangered;
+  background-color: rgb(228, 77, 22);
   transition: all 0.5s ease;
 }
 .submenu {
-  min-width: 150px;
+  min-width: 200px;
   position: absolute;
   display: none;
   transition: 0.5s linear;
@@ -67,10 +78,12 @@ ul li a {
   position: absolute;
   top: 0;
   left: 100%;
+  border-left: 10px solid transparent;
 }
+
 .topmenu li:hover > .submenu {
   display: block;
-  background-color: orangered;
+  background-color: rgb(228, 77, 22);
 }
 .submenu li:hover {
   background-color: grey;
@@ -80,9 +93,24 @@ ul li a {
   position: absolute;
   border: 5px solid;
   border-color: transparent transparent transparent white;
+  top: 1.2em;
+  right: -0.5em;
+}
+.list:hover::after {
+  transform: scaleX(-1);
+}
+.list-1::after {
+  content: ' ';
+  position: absolute;
+  border: 5px solid;
+  border-color: transparent transparent transparent white;
   top: 1.4em;
   right: 0.7em;
 }
-.list :hover::after {
-  transform: scaleX(-1);
+.list-1:hover::after {
+  transform: scaleX(1);
+  border-color: white transparent transparent transparent;
+}
+.list {
+  position: relative;
 }
