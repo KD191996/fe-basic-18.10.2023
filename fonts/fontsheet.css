@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url('Graphik-Semibold.eot');
+  src: local('Graphik Semibold'), local('Graphik-Semibold'),
+    url('Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('Graphik-Semibold.woff2') format('woff2'),
+    url('Graphik-Semibold.woff') format('woff'),
+    url('Graphik-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('Graphik-Regular.eot');
+  src: local('Graphik Regular'), local('Graphik-Regular'),
+    url('Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Graphik-Regular.woff2') format('woff2'),
+    url('Graphik-Regular.woff') format('woff'),
+    url('Graphik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

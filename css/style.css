@@ -1,5 +1,5 @@
 :root {
-  --container-width: 1110px;
+  --container-width: 1290px;
   --basic-space: 1rem;
 }
 
@@ -25,10 +25,10 @@ a {
   text-decoration: none;
 }
 html {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
-  color: #202020;
+  color: #000;
 }
 
 .container {
