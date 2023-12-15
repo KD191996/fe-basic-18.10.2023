@@ -1,0 +1,20 @@
+.secound {
+  &-section {
+    padding-top: 108px;
+    padding-bottom: 104px;
+    background-color: $primary-bgcolor;
+  }
+  &-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+}
+.secound-section .secondary-title {
+  max-width: 720px;
+}
+.partners-wrap {
+  gap: 102px;
+}

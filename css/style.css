@@ -4,9 +4,110 @@
 }
 
 .main-title {
-  font-size: 65;
+  font-size: 65px;
   font-weight: 600;
   line-height: 1;
+}
+.main-description {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding-top: 51px;
+  padding-bottom: 50px;
+  max-width: 471px;
+}
+.main-btn, .main-btn-1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 3.7;
+  color: #fff;
+  text-align: center;
+  min-width: 160px;
+  background-color: #ff6336;
+  border: none;
+  padding-left: 42px;
+  padding-right: 41px;
+  display: inline-block;
+}
+.main-btn-1 {
+  color: #000;
+  background-color: transparent;
+  padding-left: 29px;
+  padding-right: 29px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-left: 10px;
+}
+.main-description-1 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 25px;
+}
+
+.secound-section {
+  padding-top: 108px;
+  padding-bottom: 104px;
+  background-color: #ff9c7d;
+}
+.secound-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.secound-section .secondary-title {
+  max-width: 720px;
+}
+
+.partners-wrap {
+  gap: 102px;
+}
+
+.third-section {
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+.third-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 250px;
+}
+
+.card, .card-4, .card-3, .card-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-right: 167px;
+}
+.card-wrap {
+  display: flex;
+  align-items: center;
+}
+.card-2 {
+  margin-left: 138px;
+  margin-right: 70px;
+}
+.card-3 {
+  margin-right: 138px;
+}
+.card-4 {
+  margin-left: 138px;
+  margin-right: 0;
+}
+
+.start {
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+.third-section a {
+  text-decoration: underline;
+}
+
+.card-wrap:nth-child(2n) {
+  flex-direction: row-reverse;
 }
 
 :root {
@@ -60,6 +161,10 @@ html {
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 ul,
 ol,
 li {
@@ -67,7 +172,7 @@ li {
 }
 
 .logo {
-  margin-right: 10px;
+  margin-right: 51px;
 }
 
 .header {
@@ -94,6 +199,7 @@ li {
   padding-left: 1.1rem;
   padding-right: 1.05rem;
   margin-left: 10px;
+  border: none;
 }
 
 .nav-wrap {
@@ -103,4 +209,10 @@ li {
 }
 .nav-list {
   gap: 57px;
+}
+
+.secondary-title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
 }/*# sourceMappingURL=style.css.map */

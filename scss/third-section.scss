@@ -1,0 +1,46 @@
+.third {
+  &-section {
+    padding-top: 90px;
+    padding-bottom: 150px;
+  }
+  &-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+  }
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-right: 167px;
+
+  &-wrap {
+    display: flex;
+    align-items: center;
+  }
+  &-2 {
+    @extend .card;
+    margin-left: 138px;
+    margin-right: 70px;
+  }
+  &-3 {
+    @extend .card;
+    margin-right: 138px;
+  }
+  &-4 {
+    @extend .card;
+    margin-left: 138px;
+    margin-right: 0;
+  }
+}
+.start {
+  text-decoration: none !important;
+  font-weight: 600;
+}
+.third-section a {
+  text-decoration: underline;
+}
+.card-wrap:nth-child(2n) {
+  flex-direction: row-reverse;
+}

@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'first-section';
-
+@import 'secound-section';
+@import 'third-section';
 :root {
   --container-width: 1330px;
   --basic-space: 1rem;
@@ -50,13 +51,16 @@ html {
 .items-center {
   align-items: center;
 }
+.text-center {
+  text-align: center;
+}
 ul,
 ol,
 li {
   list-style: none;
 }
 .logo {
-  margin-right: 10px;
+  margin-right: 51px;
 }
 
 .header {
@@ -83,6 +87,7 @@ li {
   padding-left: 1.1rem;
   padding-right: 1.05rem;
   margin-left: 10px;
+  border: none;
 }
 
 .nav {
@@ -94,4 +99,7 @@ li {
   &-list {
     gap: 57px;
   }
+}
+.secondary-title {
+  @include font-styles(50px, 600, 1.2);
 }
