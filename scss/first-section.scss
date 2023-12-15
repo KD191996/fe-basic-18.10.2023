@@ -1,0 +1,14 @@
+.first-section {
+  padding-top: 129px;
+  padding-bottom: 172px;
+}
+.main {
+  &-title {
+    @include font-styles(65px, 600, 1);
+  }
+  &-description {
+    @include font-styles(25px, 400, 1.4);
+    padding-top: 51px;
+    padding-bottom: 50px;
+  }
+}

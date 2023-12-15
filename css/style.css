@@ -1,3 +1,14 @@
+.first-section {
+  padding-top: 129px;
+  padding-bottom: 172px;
+}
+
+.main-title {
+  font-size: 65;
+  font-weight: 600;
+  line-height: 1;
+}
+
 :root {
   --container-width: 1330px;
   --basic-space: 1rem;
@@ -19,19 +30,22 @@ a {
 }
 
 html {
-  font-family: 'Graphik', sans-serif;
+  font-family: "Graphik", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
   color: #000;
 }
 
-.container {
+.container, .container-small {
   max-width: calc(var(--container-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
   padding-right: var(--basic-space);
   padding-left: var(--basic-space);
+}
+.container-small {
+  max-width: calc(var(--container-width) - 2rem + var(--basic-space) * 2);
 }
 
 .flex {
@@ -53,7 +67,7 @@ li {
 }
 
 .logo {
-  margin-right: 51px;
+  margin-right: 10px;
 }
 
 .header {
@@ -62,8 +76,7 @@ li {
   border-bottom: 1px solid #ccc;
 }
 
-.btn,
-.btn-1 {
+.btn, .btn-1 {
   display: inline-block;
   text-align: center;
   min-width: 120px;
@@ -90,4 +103,4 @@ li {
 }
 .nav-list {
   gap: 57px;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

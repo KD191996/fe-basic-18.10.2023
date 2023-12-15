@@ -1,4 +1,6 @@
 @import 'variables';
+@import 'first-section';
+
 :root {
   --container-width: 1330px;
   --basic-space: 1rem;
@@ -32,6 +34,11 @@ html {
   margin-right: auto;
   padding-right: var(--basic-space);
   padding-left: var(--basic-space);
+
+  &-small {
+    @extend .container;
+    max-width: calc((var(--container-width) - 2rem) + var(--basic-space) * 2);
+  }
 }
 
 .flex {
@@ -57,6 +64,7 @@ li {
   padding-bottom: 25px;
   border-bottom: 1px solid #ccc;
 }
+
 .btn {
   display: inline-block;
   text-align: center;

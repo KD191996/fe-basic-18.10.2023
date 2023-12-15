@@ -1,2 +1,8 @@
 $primary-bgcolor: #ff9c7d;
 $btn-color: #ff6336;
+
+@mixin font-styles($fz, $fw, $lh) {
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+}
