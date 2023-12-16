@@ -2,6 +2,12 @@
 @import 'first-section';
 @import 'secound-section';
 @import 'third-section';
+@import 'four-section';
+@import 'six-section';
+@import 'seven-section';
+@import 'eight-section';
+@import 'nine-section';
+
 :root {
   --container-width: 1330px;
   --basic-space: 1rem;
@@ -102,4 +108,29 @@ li {
 }
 .secondary-title {
   @include font-styles(50px, 600, 1.2);
+}
+
+.five-section {
+  padding-top: 154px;
+  padding-bottom: 187px;
+
+  &-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 25px;
+  }
+}
+.boost {
+  &-title {
+    @include font-styles(30px, 600, 1.3);
+    margin-bottom: 34px;
+  }
+  &-link {
+    text-decoration: underline;
+    @include font-styles(30px, 600, 1.3);
+  }
+  &-descript {
+    margin-bottom: 25px;
+  }
 }

@@ -1,0 +1,21 @@
+.seven-section {
+  padding-top: 89px;
+  padding-bottom: 84px;
+  background-color: #dabc98;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+  border-right: 1px solid #000;
+  &-text {
+    max-width: 461px;
+    @include font-styles(35px, 600, 1.4);
+    margin-right: 125px;
+  }
+}
+.left-side {
+  display: flex;
+  gap: 70px;
+  margin-left: 70px;
+}

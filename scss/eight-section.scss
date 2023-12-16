@@ -1,0 +1,33 @@
+.eight-section {
+  padding-top: 169px;
+  padding-bottom: 162px;
+}
+.tools {
+  &-title {
+    @include font-styles(65px, 600, 1.1);
+    max-width: 791px;
+    margin: auto;
+  }
+
+  &-descript {
+    @include font-styles(25px, 400, 1.2);
+    margin: auto;
+    max-width: 539px;
+    margin-bottom: 25px;
+  }
+  &-btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    @include font-styles(16px, 600, 3.7);
+    min-width: 193px;
+    background-color: $btn-color;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+  }
+}
+.eight-section img {
+  display: block;
+  margin: auto;
+}
