@@ -1,6 +1,6 @@
 :root {
-  --container-width: 1110px;
-  --basic-space: 1rem;
+  --container-width: 1600px;
+  --basic-space: 60px;
 }
 
 * {
@@ -26,9 +26,9 @@ a {
 }
 html {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   font-weight: 400;
-  color: #202020;
+  color: #000;
 }
 
 .container {
