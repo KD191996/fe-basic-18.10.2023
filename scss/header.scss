@@ -1,0 +1,51 @@
+.span-logo {
+  color: $Main-Regular;
+  @include font-styles(36px, 400, normal);
+}
+.header {
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'a c';
+  .item-1 {
+    grid-area: a;
+    align-self: center;
+    display: flex;
+  }
+  .item-2 {
+    grid-area: b;
+    display: flex;
+    gap: 6px;
+    justify-content: end;
+    align-items: center;
+  }
+  .item-3 {
+    grid-area: c;
+    justify-self: end;
+    display: flex;
+    gap: 15px;
+  }
+}
+.lang-list {
+  color: $Grey-Text;
+  text-align: center;
+  @include font-styles(12px, 700, normal);
+  letter-spacing: 1px;
+  padding: 5px 7px;
+}
+.lang-item input[type='radio'] {
+  display: none;
+}
+
+.lang-list input[type='radio']:checked + label {
+  border-radius: 8px;
+  background-color: $Accent;
+}
+.lang-item {
+  padding: 5px 7px;
+}
+
+.lang-list input[type='radio']:hover + label {
+  border-radius: 8px;
+  background: $Grey-Bg;
+}
