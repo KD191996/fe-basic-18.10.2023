@@ -30,6 +30,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
+    margin-bottom: 60px;
   }
   &-absolute {
     position: absolute;
@@ -40,7 +41,11 @@
 .relative {
   position: relative;
 }
-.card-item h2 a :hover {
-  color: $Accent;
+
+.card-item:hover h2 {
+  color: #f0145a;
   cursor: pointer;
+}
+.card-item:hover #styled-element {
+  stroke: #f0145a;
 }

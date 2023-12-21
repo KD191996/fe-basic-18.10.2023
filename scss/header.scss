@@ -22,7 +22,7 @@
   }
   .item-3 {
     grid-area: c;
-    justify-self: end;
+    justify-content: end;
     display: flex;
     gap: 15px;
   }
@@ -46,18 +46,23 @@
   display: none;
 }
 
-.lang-list label + input[type='radio']:checked {
+.lang-list input[type='radio']:checked + span {
   border-radius: 8px;
-  background-color: $Accent;
+  background-color: #f0145a;
+  padding: 5px 7px;
+  color: #fff;
 }
-.lang-list label {
+
+.lang-list span {
   padding: 5px 7px;
 }
 
-.lang-list label:hover {
+.lang-list span:hover {
   border-radius: 8px;
-  background: $Grey-Bg;
+  background: #f5f5fa;
+  padding: 5px 7px;
 }
+
 .facebook :hover {
   fill: $Accent;
 }
