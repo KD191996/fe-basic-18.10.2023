@@ -322,13 +322,39 @@ html {
   }
 }
 @media (max-width: 647px) {
-  .container,
+  header .container {
+    padding-right: calc(var(--basic-space) / 4);
+    padding-left: calc(var(--basic-space) / 4);
+  }
+  .container {
+    padding-right: calc(var(--basic-space) / 2);
+    padding-left: calc(var(--basic-space) / 2);
+  }
   .container-small {
     padding-right: calc(var(--basic-space) / 2);
     padding-left: calc(var(--basic-space) / 2);
   }
   .card-wrap {
     grid-template-columns: 1fr;
+  }
+  footer .dot {
+    display: none;
+  }
+  .adress-wrap {
+    flex-direction: column;
+  }
+  .social-map {
+    flex-direction: column;
+  }
+  .footer-wrap {
+    gap: 30px;
+  }
+  header .adress,
+  .facebook {
+    display: none;
+  }
+  header .dot {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
