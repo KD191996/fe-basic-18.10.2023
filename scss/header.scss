@@ -75,9 +75,9 @@
   content: '';
   position: absolute;
   left: 0;
-  bottom: 3px;
+  bottom: -3px;
   width: 0;
-  height: 1.5px;
+  height: 2px;
   background-color: #24a3ff;
 }
 
@@ -95,11 +95,22 @@
   content: '';
   position: absolute;
   left: 0;
-  bottom: 3px;
+  bottom: -3px;
   width: 0;
-  height: 1.5px;
+  height: 2px;
   background-color: $Accent;
 }
 .item-3 a:active:before {
   width: 100%;
+}
+
+.burger {
+  display: none;
+}
+.item-3 ul {
+  text-decoration: none;
+}
+.item-3 li {
+  text-decoration: none;
+  list-style: none;
 }
