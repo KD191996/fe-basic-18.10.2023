@@ -126,6 +126,10 @@
   list-style: none;
 }
 
+.active {
+  color: #f0145a;
+}
+
 .main-title {
   font-size: 38px;
   font-weight: 700;
@@ -232,7 +236,7 @@
   fill: #f0145a;
 }
 
-.footer-mail :hover {
+.footer-mail:hover {
   color: #f0145a;
 }
 
