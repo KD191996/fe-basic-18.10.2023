@@ -4,7 +4,7 @@ $('.burger').click(function () {
     $('.item-3').toggleClass('active');
 
 })
-$('.nav-wrap, .nav-wrap .close').click(function (event) {
+$('.nav-wrap, .close').click(function (event) {
     console.log(event.target);
     console.log(this);
 
