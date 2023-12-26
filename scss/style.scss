@@ -163,6 +163,7 @@ html {
   .burger svg rect {
     fill: transparent;
   }
+
   .burger {
     cursor: pointer;
     position: absolute;
@@ -173,6 +174,7 @@ html {
     border: none;
     background-color: transparent;
   }
+
   .header .nav-wrap {
     display: none;
     position: fixed;
@@ -183,7 +185,6 @@ html {
     z-index: 2;
     justify-content: center;
     background-color: rgba(50, 50, 100, 0.7);
-    transition: all 0.3s linear;
   }
   .item-3 {
     position: absolute;
@@ -192,7 +193,7 @@ html {
     border-radius: 12px 12px 0 0;
     flex-direction: column;
     bottom: 0px;
-    width: 100%;
+    width: calc(100% - 1rem);
   }
   .item-3 li {
     background-color: $Grey-Bg;
